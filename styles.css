@@ -241,6 +241,61 @@ html {
     line-height: 1.8;
 }
 
+/* Publications Section */
+.publications {
+    padding: 5rem 0;
+    background: var(--bg-light);
+}
+
+.publications-list {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.publication-card {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.publication-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.publication-title {
+    margin-bottom: 0.75rem;
+}
+
+.publication-title a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.publication-title a:hover {
+    color: var(--primary-dark);
+}
+
+.publication-authors {
+    color: var(--text-dark);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-venue {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
 /* Books Section */
 .books {
     padding: 5rem 0;
